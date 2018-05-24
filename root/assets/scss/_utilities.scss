@@ -1,0 +1,25 @@
+.u-basicList {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.u-bulletList {
+    li::before {
+        color: $color-orange;
+        content: $bullet; 
+        margin-right: 5px;
+    }
+}
+
+.u-arrowList {
+    li::before {
+        color: $color-orange;
+        content: $arrow;
+        margin-right: 5px;
+    }
+}
+
+.u-marginTop20 { margin-top: 20px; }
+
+.u-margin0 { margin: 0; }
